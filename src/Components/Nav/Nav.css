@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #E62129;
+}
+.navbar a {
+    margin-top: 3px;
+    top: 0;
+    left: 15px;
+    position: absolute;
+    color: white;
+    font-size: 1.7rem;
+}
+h6 {
+    margin-top: 9px;
+    color: white;
+}

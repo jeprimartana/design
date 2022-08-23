@@ -1,0 +1,59 @@
+.border {
+    position: absolute;
+    border: 1px solid #CACACA;
+    width: 320px;
+    height: 540px;
+    top: 6rem;
+    border-radius: 15px;
+
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* ======IMG====== */
+.foto {
+    position: flex;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+img {
+    border-radius: 17px;
+    width: 275px;
+    height: 300px;
+}
+
+/* ====Tombol==== */
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 21rem;
+}
+
+.btn-red:hover {
+    color: white;
+    background: rgb(63, 63, 63);
+}
+
+.btn-red {
+    margin-top: 16rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 0.56rem 9rem;
+    gap: 12px;
+    border-radius: 100px;
+    background: #E62129;
+}
+
+/* =====Note====== */
+.note h7 {
+    font-weight: bold;
+    font-size: 15px;
+}
+.note p {
+    font-size: 14px;
+    line-height: 18px;
+}
